@@ -1,0 +1,216 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--font2);
+  font-size: 10px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../images/latest-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.fullmenu {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../images/latest-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* fonts */
+:root {
+  --font1: "Lateef", cursive;
+  --font2: "Kalam", cursive;
+  --font3: "Amiri", cursive;
+}
+/* fonts */
+/* content */
+main {
+  margin: 8rem auto;
+  width: 80%;
+  padding: 1em;
+  font-size: 1.7rem;
+  font-family: var(--font3);
+  align-items: center;
+  justify-content: center;
+}
+main h1 {
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 2.1rem;
+  color: #eeeeee;
+}
+main h1 span {
+  color: crimson;
+  text-transform: capitalize;
+  font-family: var(--font1);
+}
+.animals-card {
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 22rem));
+  grid-gap: 2rem;
+  margin-bottom: 15rem;
+  height: auto;
+  justify-content: center;
+}
+.card {
+  overflow: hidden;
+  box-shadow: 3px 1px 12px 0px rgba(0, 0, 0);
+  border-radius: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.4s ease-in;
+  width: clamp(30ch, 30% 60ch);
+  position: relative;
+  padding-top: 2rem;
+  background-color: #1a1919d5;
+  margin-bottom: 3rem;
+}
+.card:hover {
+  box-shadow: 3px 1px 12px 0px rgba(0, 0, 0);
+  transform: scale(1.07);
+}
+.card-img {
+  height: 14rem;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+.card-tittle {
+  padding: 1em;
+  font-size: 1.9rem;
+  color: crimson;
+}
+.card-description {
+  padding: 0 1em;
+  color: #eeeeee;
+  font-size: 1.22rem;
+}
+.card-btn {
+  width: 100%;
+  margin-top: 1em;
+  padding: 1em;
+  background-color: crimson;
+  color: #eeeeee;
+  border-radius: 20%;
+  border: 1em;
+  cursor: pointer;
+}
+.card-btn:hover {
+  background-color: #eeeeee;
+  color: crimson;
+}
+/* content */
+/* colors */
+/* honey badger */
+.honey-badger:hover h2 {
+  background: linear-gradient(to top, #282527, #c3bdb6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+}
+/* honey badger */
+/* cheetah */
+.cheetah:hover h2 {
+  background: linear-gradient(to top, #e8c1a2, #a8733a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+}
+.cheetah p {
+  padding: 0 1.5em;
+}
+/* cheetah */
+/* white Rhinoceros */
+.white-rhino:hover h2 {
+  background: linear-gradient(to top, #5f5d59, #8c9494);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+/* white Rhinoceros */
+/* african lion */
+.african-lion p {
+  padding: 0 1.33em;
+}
+.african-lion:hover h2 {
+  background: rgb(65, 30, 15);
+  background: linear-gradient(
+    18deg,
+    rgba(65, 30, 15, 1) 12%,
+    rgba(184, 127, 54, 1) 48%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+}
+/* african lion */
+/* colors */
+/* media */
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .animals-card {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 26rem));
+    grid-gap: 2rem;
+    margin-bottom: 15rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body,
+  .fullmenu {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/latest-background-m.webp);
+  }
+}
+@media screen and (max-width: 2400px) {
+  body,
+  .fullmenu {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/latest-background-l.webp);
+  }
+}
+@media screen and (max-width: 500px) {
+  .hide {
+    display: none;
+  }
+}
+/* media */

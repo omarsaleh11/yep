@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/latest.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/scrollbar.css">
+    <link rel="stylesheet" href="./style/animation.css">
+    <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+    <title>OS موسوعة-آخر المقالات</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header dir="ltr">
+        <nav class="topnav">
+            <ul>
+                <li><span onclick="myLanguage()"><i class="fas wobble-hor-bottom fa-language language"></i></span></li>
+                <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a>
+                </li>
+                <li><span onclick="myMenu()"><i class="fas wobble-hor-bottom fa-hamburger menu"></span></i></li>
+            </ul>
+        </nav>
+        <nav class="midnav">
+            <ul>
+                <li><a href="./sources.html" class="sources hide">المصادر</a></li>
+                <li><a href="#" class="contact hide">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <div class="mymenu">
+            <nav class="fullmenu" id="menu">
+                <a href="javascript:void(0)" class="closebtn btn2" onclick="closeMenu()"><i
+                        class="fas fa-times"></i></a>
+                <ul>
+                    <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a></li>
+                    <li class="bounce-in-left"><a href="./latest.html">أخر المقالات</a></li>
+                    <li class="drop-species bounce-in-right"><a class="drop">الأنواع</a>
+                        <div class="dropdown-content" style="margin-bottom: 0px;">
+                            <a href="#">ثدييات</a>
+                            <a href="#">طيور</a>
+                            <a href="#">حشرات</a>
+                            <a href="#">للمزيد</a>
+                        </div>
+                    </li>
+                    <li class="drop-Animals bounce-in-left"><a class="drop">الحيوانات</a>
+                        <div class="dropdown-content" style="margin-bottom: 0px;">
+                            <a href="#">غرير العسل</a>
+                            <a href="#">صقور الجديان</a>
+                            <a href="#">بنغول</a>
+                            <a href="#">وحيد القرن الأبيض</a>
+                            <a href="#">للمزيد</a>
+                        </div>
+                    </li>
+                    <li class="bounce-in-right"><a href="./sources.html">المصادر</a></li>
+                    <li class="bounce-in-left"><a href="#">تواصل معنا</a></li>
+                    <li class="bounce-in-right"><a href="#">ثيمات</a></li>
+                    <li class="bounce-in-left"><a href="#">بحث</a></li>
+                </ul>
+            </nav>
+            <div class="mylanguage">
+                <nav class="fullmenu" id="language">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeLanguage()"><i
+                            class="fas fa-times"></i></a>
+                    <ul>
+                        <li><a href="../latest.html">English</a></li>
+                        <li><a href="./latest.html" class="active" dir="rtl">عربى</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <div class="main-and-footer">
+        <!-- content -->
+        <main>
+            <div class="full-content">
+                <h1>مرحباََ هنا <span>آخر المقالات</span> فى الموسوعة</h1>
+            </div>
+            <div class="latest-cards">
+                <div class="animals-card">
+                    <div class="card honey-badger">
+                        <div class="card-body">
+                            <img src="./icons/honey-badger-ic.webp" alt="Honey Badger" class="card-img">
+                            <h2 class="card-tittle">
+                                غرير العسل
+                            </h2>
+                            <p class="card-description">
+                                غرير العسل سيأكل أى شئ فى طريقه فهو ببساطة من آكلى اللحوم ومع خصائص جسده القوية سيأكل
+                                حتى
+                                الطيور والثدييات .
+                            </p>
+                        </div><a href="./soon.html">
+                            <button class="card-btn">
+                                أقرأ المزيد من هنا
+                            </button></a>
+                    </div>
+                    <div class="card cheetah">
+                        <div class="card-body">
+                            <img src="./icons/ceetah-ic.webp" alt="Cheetah" class="card-img">
+                            <h2 class="card-tittle">
+                                الفهد
+                            </h2>
+                            <p class="card-description">
+                                الفهود هى القطط الكبيرة الوحيدة التى لا تستطيع الزئير .ولكن الفهود تشرب مرة واحدة كل
+                                ثلاث
+                                أيام .
+                            </p>
+                        </div><a href="./soon.html">
+                            <button class="card-btn">
+                                أقرأ المزيد من هنا
+                            </button></a>
+                    </div>
+                    <div class="card white-rhino">
+                        <div class="card-body">
+                            <img src="./icons/white-rhinoceros-ic.webp" alt="White Rhinoceros" class="card-img">
+                            <h2 class="card-tittle">
+                                وحيد القرن الأبيض
+                            </h2>
+                            <p class="card-description">
+                                فى الواقع وحيد القرن الأبيض والأسود لونهما رمادى , ولكنهما مختلفان فى شكل الشفاة . وحيد
+                                القرن الأبيض له شفاه مربعة الشكل.
+                            </p>
+                        </div><a href="./soon.html">
+                            <button class="card-btn">
+                                أقرأ المزيد من هنا
+                            </button></a>
+                    </div>
+                    <div class="card african-lion">
+                        <div class="card-body">
+                            <img src="./icons/african-lion-ic.webp" alt="African lions" class="card-img">
+                            <h2 class="card-tittle">
+                                الأسد الأفريقى
+                            </h2>
+                            <p class="card-description">
+                                الأسود الأفريقية تحظى بالتبجيل حول العالم , ومع ذلك عددها تقلص الى النصف
+                                فى خلال 25 عام الماضية .
+                            </p>
+                        </div><a href="./soon.html">
+                            <button class="card-btn">
+                                أقرأ المزيد من هنا
+                            </button></a>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <!-- content -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="logo footer"><a href="./index.html"><img src="./logo.svg" alt="logo"></a></div>
+        <div class="by-os">copyright for &copy;2020<a target="_blank"
+                href="https://www.facebook.com/omar.saleh.3344913">
+                OS</a></div>
+        <div class="footer-content">background image by <a
+                href="https://www.pexels.com/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                target="_blank">Pixabay</a> from <a
+                href="https://www.pexels.com/photo/3-grey-elephants-under-yellow-sky-68550/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                target="_blank">Pexels</a> . </div>
+    </footer>
+    <!-- footer -->
+    </div>
+    <!-- java -->
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery3.5.1.main.js"></script>
+    <!-- java -->
+</body>
+
+</html>
