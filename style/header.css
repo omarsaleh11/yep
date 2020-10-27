@@ -1,0 +1,193 @@
+/* header */
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0em;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  font-size: 2em;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #eeeeee;
+  cursor: pointer;
+}
+nav ul li a:hover,
+nav ul li span:hover {
+  opacity: 0.7;
+}
+.brand {
+  margin-top: 1em;
+  max-width: 120px;
+  animation: bounce-in-top 1.1s both;
+}
+.language {
+  margin-left: 1em;
+  font-size: 3rem;
+  color: #eeeeee;
+  cursor: pointer;
+  animation: bounce-in-left 1.1s both;
+}
+
+.menu {
+  margin-right: 1em;
+  font-size: 3rem;
+  color: crimson;
+  z-index: 1;
+  cursor: pointer;
+  animation: bounce-in-right 1.1s both;
+}
+.midnav {
+  position: relative;
+}
+.midnav ul {
+  align-items: center;
+  justify-content: center;
+}
+.midnav ul li {
+  margin: 0 8em;
+}
+.midnav .sources {
+  color: crimson;
+  animation: bounce-in-bck 1.1s both;
+}
+.midnav .contact {
+  animation: bounce-in-bck 1.1s both;
+}
+/* myMenus */
+.closebtn {
+  position: absolute;
+  top: 1%;
+  right: 7%;
+  font-size: 5em;
+  color: #eeeeee;
+  cursor: pointer;
+  z-index: 1;
+}
+.fullmenu {
+  width: 100%;
+  height: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../images/sources-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 500;
+}
+#menu {
+  height: 100%;
+  display: none;
+}
+.fullmenu ul {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.fullmenu ul li {
+  margin: 1em auto;
+  font-size: 1.9em;
+  text-align: center;
+}
+.fullmenu ul li:nth-child(0) {
+  animation-delay: 0.5s;
+}
+.fullmenu ul li:nth-child(1) {
+  animation-delay: 1s;
+}
+.fullmenu ul li:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.fullmenu ul li:nth-child(3) {
+  animation-delay: 2s;
+}
+.fullmenu ul li:nth-child(4) {
+  animation-delay: 2.5s;
+}
+.fullmenu ul li:nth-child(5) {
+  animation-delay: 3s;
+}
+.fullmenu ul li:nth-child(6) {
+  animation-delay: 3.5s;
+}
+.fullmenu ul li:nth-child(7) {
+  animation-delay: 4s;
+}
+.fullmenu ul li:nth-child(8) {
+  animation-delay: 4.5s;
+}
+.fullmenu ul li:last-child {
+  margin-bottom: 5rem;
+}
+.fullmenu ul li a {
+  transition: 1s;
+}
+.fullmenu ul li a:hover {
+  color: crimson;
+}
+.fullmenu .brand {
+  max-width: 200px;
+  font-size: initial;
+  margin-bottom: 30%;
+  margin-top: 3em;
+}
+.drop-species,
+.drop-Animals {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 160px;
+  z-index: 1;
+  margin-top: 0.5em;
+  margin: 0 auto;
+}
+.dropdown-content a {
+  color: #4fcc13;
+  display: inline;
+  margin: 2.5em;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.drop-Animals,
+.drop-species {
+  display: flex;
+  justify-content: space-around;
+}
+.drop-Animals .dropdown-content {
+  font-size: 1.5rem;
+}
+.drop-species:hover .dropdown-content,
+.drop-Animals:hover .dropdown-content {
+  display: grid;
+}
+.mylanguage .closebtn {
+  left: 7%;
+}
+.mylanguage .fullmenu {
+  transition: 1s;
+}
+.mylanguage .fullmenu ul {
+  display: block;
+  top: 10%;
+  left: 20%;
+}
+.mylanguage .fullmenu ul li {
+  margin: 0.5em;
+  font-size: 1.1em;
+}
+.active {
+  color: #4fcc13;
+}
+/* myMenus */
+/* header */

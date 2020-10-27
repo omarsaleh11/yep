@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--font2);
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../images/main-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.fullmenu {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../images/main-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* fonts */
+:root {
+  --font1: "courgette", sans-serif;
+  --font2: "Kalam", cursive;
+  --font3: "Itim", cursive;
+}
+/* fonts */
+/* start of contant */
+
+.middle {
+  margin-top: 30%;
+  text-transform: uppercase;
+  font-family: var(--font3);
+  color: rgb(10, 9, 9);
+  text-align: center;
+}
+h1 {
+  margin: 1em 0;
+  font-size: 3rem;
+  color: #eeeeee;
+}
+hr {
+  margin: 0 auto;
+  width: 40%;
+}
+p {
+  margin: 0.6em 0;
+  color: crimson;
+}
+/* end of contant */
+
+/* media */
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 6.5px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  body,
+  .fullmenu {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/main-background-m.webp);
+  }
+}
+@media screen and (max-width: 500px) {
+  .hide {
+    display: none;
+  }
+}
+/* media */

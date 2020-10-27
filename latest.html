@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./style/owl.carousel.css">
+    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/latest.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/animation.css">
+    <link rel="stylesheet" href="./style/scrollbar.css">
+    <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+    <title>OS Encyclopedia-latest</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="topnav">
+            <ul>
+                <li><span onclick="myLanguage()"><i class="fas wobble-hor-bottom fa-language language"></i></span></li>
+                <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a>
+                </li>
+                <li><span onclick="myMenu()"><i class="fas wobble-hor-bottom fa-hamburger menu"></span></i></li>
+            </ul>
+        </nav>
+        <nav class="midnav">
+            <ul>
+                <li><a href="./sources.html" class="sources hide">Sources</a></li>
+                <li><a href="#" class="contact hide">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mymenu">
+            <nav class="fullmenu" id="menu">
+                <a href="javascript:void(0)" class="closebtn btn2" onclick="closeMenu()"><i
+                        class="fas fa-times"></i></a>
+                <ul>
+                    <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a></li>
+                    <li class="bounce-in-right"><a href="./latest.html">Latest</a></li>
+                    <li class="drop-species bounce-in-left"><a class="drop">Species</a>
+                        <div class="dropdown-content" style="margin-bottom: 0px;">
+                            <a href="#">Mammals</a>
+                            <a href="#">Birds</a>
+                            <a href="#">Insects</a>
+                            <a href="./species.html">For More</a>
+                        </div>
+                    </li>
+                    <li class="drop-Animals bounce-in-right"><a class="drop">Animals</a>
+                        <div class="dropdown-content" style="margin-bottom: 0px;">
+                            <a href="#">Honey badger</a>
+                            <a href="#">Secretary birds</a>
+                            <a href="#">pangolin</a>
+                            <a href="#">White Rhinoceros</a>
+                            <a href="#">For More</a>
+                        </div>
+                    </li>
+                    <li class="bounce-in-left"><a href="./sources.html">Sources</a></li>
+                    <li class="bounce-in-right"><a href="#">Contact</a></li>
+                    <li class="bounce-in-left"><a href="#">Themes</a></li>
+                    <li class="bounce-in-right"><a href="#">Search</a></li>
+                </ul>
+            </nav>
+            <div class="mylanguage">
+                <nav class="fullmenu" id="language">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeLanguage()"><i
+                            class="fas fa-times"></i></a>
+                    <ul>
+                        <li><a href="./latest.html" class="active">English</a></li>
+                        <li><a href="./ar/latest.html" dir="rtl">عربى</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <div class="main-and-footer">
+        <!-- content -->
+        <main>
+            <div class="full-content">
+                <h1>Welcome here the <span>Latest articles</span> in the Encyclopedia</h1>
+            </div>
+            <div class="latest-cards">
+                <div class="mammals-cards">
+                    <h1>Mammals</h1>
+                    <div class="animals-card owl-carousel owl-theme">
+                        <div class="card honey-badger item">
+                            <div class="card-body">
+                                <img src="./icons/honey-badger-ic.webp" alt="Honey Badger" class="card-img">
+                                <h2 class="card-tittle">
+                                    Honey Badger
+                                </h2>
+                                <p class="card-description">
+                                    Honey Badgers will eat anything, They’re omnivores who will go after everything even
+                                    mammals and birds.
+                                </p>
+                            </div><a href="./soon.html">
+                                <button class="card-btn">
+                                    Read more
+                                </button></a>
+                        </div>
+                        <div class="card cheetah item">
+                            <div class="card-body">
+                                <img src="./icons/ceetah-ic.webp" alt="Cheetah" class="card-img">
+                                <h2 class="card-tittle">
+                                    Cheetah
+                                </h2>
+                                <p class="card-description">
+                                    Cheetahs are the only big cats that can’t roar, and Mortality rates for cheetah cubs
+                                    in
+                                    Africa
+                                    run as high as 95%.
+                                </p>
+                            </div><a href="./soon.html">
+                                <button class="card-btn">
+                                    Read more
+                                </button></a>
+                        </div>
+                        <div class="card white-rhino item">
+                            <div class="card-body">
+                                <img src="./icons/white-rhinoceros-ic.webp" alt="White Rhinoceros" class="card-img">
+                                <h2 class="card-tittle">
+                                    White Rhinoceros
+                                </h2>
+                                <p class="card-description">
+                                    Both black and white rhinoceroses are actually gray. They are different in lipshape.
+                                    The
+                                    white has a squared lip.
+                                </p>
+                            </div><a href="./soon.html">
+                                <button class="card-btn">
+                                    Read more
+                                </button></a>
+                        </div>
+                        <div class="card african-lion item">
+                            <div class="card-body">
+                                <img src="./icons/african-lion-ic.webp" alt="African lions" class="card-img">
+                                <h2 class="card-tittle">
+                                    African lions
+                                </h2>
+                                <p class="card-description">
+                                    African lions are revered the world over, but their population has shrunk in half
+                                    over
+                                    the
+                                    past
+                                    25 years.
+                                </p>
+                            </div><a href="./soon.html">
+                                <button class="card-btn">
+                                    Read more
+                                </button></a>
+                        </div>
+                        <div class="card bison item">
+                            <div class="card-body">
+                                <img src="./icons/bison-ic.webp" alt="Bison" class="card-img">
+                                <h2 class="card-tittle">
+                                    American Bison
+                                </h2>
+                                <p class="card-description">
+                                    American Bison are symbolic animals of the Great Plains,and they are the heaviest
+                                    land animals
+                                    in North America.
+                                </p>
+                            </div><a href="./soon.html">
+                                <button class="card-btn">
+                                    Read more
+                                </button></a>
+                        </div>
+                        <!-- </div>
+                    <div class="latest-cards">
+                        <div class="insects-cards">
+                            <h1>Insects</h1>
+                            <div class="animals-card owl-carousel owl-theme">
+                                <div class="card mantis item">
+                                    <div class="card-body">
+                                        <img src="./icons/mantis-ic.webp" alt="Praying Mantis" class="card-img">
+                                        <h2 class="card-tittle">
+                                            Praying Mantis <span>(Green)</span>
+                                        </h2>
+                                        <p class="card-description">
+                                            The word mantis comes from the Greek mantikos, for soothsayer or prophet.
+                                            Unlike other insects, praying mantis can turn its head a full 180-degrees.
+                                        </p>
+                                    </div><a href="./soon.html">
+                                        <button class="card-btn">
+                                            Read more
+                                        </button></a>
+                                </div>
+                                <div class="card black-widow item">
+                                    <div class="card-body">
+                                        <img src="./icons/black-widow-ic.webp" alt="Black Widow" class="card-img">
+                                        <h2 class="card-tittle">
+                                            Black Widow
+                                        </h2>
+                                        <p class="card-description">
+                                            these spiders are arachnids that are known for the female's unique
+                                            appearance and
+                                            tendency
+                                            to eat their mates.
+                                        </p>
+                                    </div><a href="./soon.html">
+                                        <button class="card-btn">
+                                            Read more
+                                        </button></a>
+                                </div>
+                                <div class="card thron-bug item">
+                                    <div class="card-body">
+                                        <img src="./icons/thron-bug-ic.webp" alt="thron-bug" class="card-img">
+                                        <h2 class="card-tittle">
+                                            Thron Bug
+                                        </h2>
+                                        <p class="card-description">
+                                            Thorn bug are best known for their enlarged and ornate pronotum which most
+                                            often resembles thorn .
+                                        </p>
+                                    </div><a href="./soon.html">
+                                        <button class="card-btn">
+                                            Read more
+                                        </button></a>
+                                </div>
+                                <div class="card mosquito item">
+                                    <div class="card-body">
+                                        <img src="./icons/mosquito-ic.webp" alt="Mosquito" class="card-img">
+                                        <h2 class="card-tittle">
+                                            Mosquito
+                                        </h2>
+                                        <p class="card-description">
+                                            Many of the mosquito species generally do not fly above 25 feet. This is the
+                                            reason why mosquitoes are considered as
+                                            weak fliers.
+                                        </p>
+                                    </div><a href="./soon.html">
+                                        <button class="card-btn">
+                                            Read more
+                                        </button></a>
+                                </div>
+                                <div class="card fly item">
+                                    <div class="card-body">
+                                        <img src="./icons/fly-ic.webp" alt="Fly" class="card-img">
+                                        <h2 class="card-tittle">
+                                            HouseFly
+                                        </h2>
+                                        <p class="card-description">
+                                            HouseFly have efficient reproduction quality. They lay a range of 75 to 100
+                                            eggs and hatch within 12 to 24 hours.
+                                        </p>
+                                    </div><a href="./soon.html">
+                                        <button class="card-btn">
+                                            Read more
+                                        </button></a>
+                                </div>
+                            </div> -->
+                    </div>
+        </main>
+        <!-- content -->
+        <!-- footer -->
+        <footer id="footer">
+            <div class="logo footer"><a href="./index.html"><img src="./logo.svg" alt="logo"></a></div>
+            <div class="by-os">copyright for &copy;2020<a target="_blank"
+                    href="https://www.facebook.com/omar.saleh.3344913">
+                    OS</a></div>
+            <div class="footer-content">background image by <a
+                    href="https://www.pexels.com/@eberhardgross?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                    target="_blank">eberhard grossgasteiger</a> from <a
+                    href="https://www.pexels.com/photo/daylight-forest-glossy-lake-443446/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                    target="_blank">Pexels</a> . </div>
+        </footer>
+        <!-- footer -->
+    </div>
+    <!-- java -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery3.5.1.main.js"></script>
+    <!-- java -->
+</body>
+
+</html>

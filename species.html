@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/species.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/animation.css">
+    <link rel="stylesheet" href="./style/scrollbar.css">
+    <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+    <title>OS Encyclopedia-Species</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="topnav">
+            <ul>
+                <li><span onclick="myLanguage()"><i class="fas wobble-hor-bottom fa-language language"></i></span></li>
+                <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a>
+                </li>
+                <li><span onclick="myMenu()"><i class="fas wobble-hor-bottom fa-hamburger menu"></i></span></li>
+            </ul>
+        </nav>
+        <nav class="midnav">
+            <ul>
+                <li><a href="./sources.html" class="sources hide">Sources</a></li>
+                <li><a href="#" class="contact hide">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mymenu">
+            <nav class="fullmenu" id="menu">
+                <a href="javascript:void(0)" class="closebtn btn2" onclick="closeMenu()"><i
+                        class="fas fa-times"></i></a>
+                <ul>
+                    <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a></li>
+                    <li class="bounce-in-right"><a href="./latest.html">Latest</a></li>
+                    <li class="drop-species bounce-in-left"><a class="drop">Species</a>
+                        <div class="dropdown-content" style="margin-bottom: 0px;">
+                            <a href="#">Mammals</a>
+                            <a href="#">Birds</a>
+                            <a href="#">Insects</a>
+                            <a href="./species.html">For More</a>
+                        </div>
+                    </li>
+                    <li class="drop-Animals bounce-in-right"><a class="drop">Animals</a>
+                        <div class="dropdown-content" style="margin-bottom: 0px;">
+                            <a href="#">Honey badger</a>
+                            <a href="#">Secretary birds</a>
+                            <a href="#">pangolin</a>
+                            <a href="#">White Rhinoceros</a>
+                            <a href="#">For More</a>
+                        </div>
+                    </li>
+                    <li class="bounce-in-left"><a href="./sources.html">Sources</a></li>
+                    <li class="bounce-in-right"><a href="#">Contact</a></li>
+                    <li class="bounce-in-left"><a href="#">Themes</a></li>
+                    <li class="bounce-in-right"><a href="#">Search</a></li>
+                </ul>
+            </nav>
+            <div class="mylanguage">
+                <nav class="fullmenu" id="language">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeLanguage()"><i
+                            class="fas fa-times"></i></a>
+                    <ul>
+                        <li><a href="./index.html" class="active">English</a></li>
+                        <li><a href="./ar/index.html" dir="rtl">عربى</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <div class="main-and-footer">
+        <!-- content -->
+        <main>
+            <div class="background-species">
+                <ul>
+                    <li><a href="#">Mammals</a></li>
+                    <li><a href="#">Insects</a></li>
+                    <li><a href="#">Birds</a></li>
+                    <li><a href="#">Reptiles</a></li>
+                </ul>
+            </div>
+        </main>
+        <!-- content -->
+        <!-- footer -->
+        <footer id="footer">
+            <div class="logo footer"><a href="./index.html"><img src="./logo.svg" alt="logo"></a></div>
+            <div class="by-os">copyright for &copy;2020<a target="_blank"
+                    href="https://www.facebook.com/omar.saleh.3344913">
+                    OS</a></div>
+            <div class="footer-content">
+                <h4 onclick="openCredits()">background images credits</h4>
+                <nav class="fullmenu" id="img">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeCredits()"><i
+                            class="fas fa-times"></i></a>
+                    <ul>
+                        <li>Insects image by <a
+                                href="https://www.pexels.com/@ganajp?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                                target="_blank">Petr Ganaj</a> from <a
+                                href="https://www.pexels.com/photo/green-praying-mantis-on-rocks-4096460/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                                target="_blank">Pexels</a></li>
+                        <li>Mammals image by <a
+                                href="https://www.pexels.com/@hendrikcornelissen?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                                target="_blank">Hendrik Cornelissen</a> from <a
+                                href="https://www.pexels.com/photo/five-zebra-grazing-on-grass-field-2862070/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                                target="_blank">Pexels</a> .</li>
+                        <li>Birds image by <a
+                                href="https://www.pexels.com/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                                target="_blank">Pixabay</a> from <a
+                                href="https://www.pexels.com/photo/white-seagulls-near-water-54462/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                                target="_blank">Pexels</a> .</li>
+                        <li>Reptiles image by <a href="https://www.flickr.com/photos/123498605@N07/"
+                                target="_blank">Laëtitia Caron</a> from <a href="https://flic.kr/p/na5Cdo"
+                                target="_blank">flickr</a> .</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <!-- footer -->
+    </div>
+    <!-- java -->
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery3.5.1.main.js"></script>
+    <!-- java -->
+</body>
+
+</html>

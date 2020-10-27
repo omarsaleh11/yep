@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "courgette", cursive;
+  src: url(../fonts/courgette/Courgette-Regular.ttf);
+}
+@font-face {
+  font-family: "Kalam", cursive;
+  src: url(../fonts/Kalam/Kalam-Regular.ttf);
+}
+@font-face {
+  font-family: "Itim", cursive;
+  src: url(../fonts/Itim/Itim-Regular.ttf);
+}
+@font-face {
+  font-family: "Lateef", cursive;
+  src: url(../fonts/Lateef/Lateef-Regular.ttf);
+}
+@font-face {
+  font-family: "Amiri", cursive;
+  src: url(../fonts/Amiri/Amiri-Regular.ttf);
+}
