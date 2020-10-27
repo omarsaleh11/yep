@@ -27,6 +27,20 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.footer-content {
+  display: grid;
+}
+.footer-content h4 {
+  cursor: pointer;
+}
+.footer-content nav ul {
+  margin-top: 20rem;
+  font-size: 1.4rem;
+}
+.footer-content li a {
+  font-size: 3rem;
+  color: #4fcc13;
+}
 /* fonts */
 :root {
   --font1: "courgette", sans-serif;
