@@ -19,6 +19,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   overflow: hidden;
   overflow-y: auto;
 }
@@ -41,7 +42,7 @@ body {
   font-family: var(--font3);
   font-size: 1.7rem;
   color: #eeeeee;
-  width: 100%;
+  width: 90%;
   margin: 10% 2rem;
 }
 h3 {
@@ -88,6 +89,10 @@ p span {
         rgba(0, 0, 0, 0.5)
       ),
       url(../images/main-background-m.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (max-width: 500px) {
