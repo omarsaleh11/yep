@@ -18,6 +18,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   overflow: hidden;
   overflow-y: auto;
 }
@@ -27,13 +28,14 @@ body {
     url(../images/main-background.webp);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 /* fonts */
 :root {
-  --font1: "Lateef", cursive;
-  --font2: "Kalam", cursive;
-  --font3: "Amiri", cursive;
+  --font1: "Lateef", serif;
+  --font2: "Kalam", serif;
+  --font3: "Amiri", serif;
 }
 /* fonts */
 /* content */
@@ -92,6 +94,10 @@ p span {
         rgba(0, 0, 0, 0.5)
       ),
       url(../images/main-background-m.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 @media screen and (max-width: 500px) {

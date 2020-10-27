@@ -31,9 +31,9 @@ body {
 }
 /* fonts */
 :root {
-  --font1: "courgette", sans-serif;
-  --font2: "Kalam", cursive;
-  --font3: "Itim", cursive;
+  --font1: "courgette", serif;
+  --font2: "Kalam", serif;
+  --font3: "Itim", serif;
 }
 /* fonts */
 /* start of contant */

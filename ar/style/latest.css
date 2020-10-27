@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   overflow: hidden;
   overflow-y: auto;
 }
@@ -29,9 +30,9 @@ body {
 }
 /* fonts */
 :root {
-  --font1: "Lateef", cursive;
-  --font2: "Kalam", cursive;
-  --font3: "Amiri", cursive;
+  --font1: "Lateef", serif;
+  --font2: "Kalam", serif;
+  --font3: "Amiri", serif;
 }
 /* fonts */
 /* content */
@@ -189,6 +190,10 @@ main h1 span {
 @media screen and (max-width: 1300px) {
   body,
   .fullmenu {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 1),
@@ -200,6 +205,10 @@ main h1 span {
 @media screen and (max-width: 2400px) {
   body,
   .fullmenu {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 1),

@@ -18,6 +18,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   overflow: hidden;
   overflow-y: auto;
 }
@@ -43,9 +44,9 @@ body {
 }
 /* fonts */
 :root {
-  --font1: "courgette", sans-serif;
-  --font2: "Kalam", sans-serif;
-  --font3: "Itim", sans-serif;
+  --font1: "courgette", serif;
+  --font2: "Kalam", serif;
+  --font3: "Itim", serif;
 }
 /* fonts */
 /* content */
@@ -101,23 +102,26 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 1300px) {
   .background-species ul li:nth-child(1) a::before {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
       url(../images/mammals-background-m.webp);
-    background-position: center left;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (max-width: 600px) {
   .background-species ul li:nth-child(1) a::before {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
       url(../images/mammals-background-ss.webp);
-    background-position: center left;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 /* mammals */
@@ -128,6 +132,7 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 1300px) {
   .background-species ul li:nth-child(2) a::before {
@@ -136,6 +141,7 @@ main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (max-width: 600px) {
@@ -145,6 +151,7 @@ main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 /* insects */
@@ -155,6 +162,7 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 /* Birds */
 /* Reptiles */
@@ -164,6 +172,7 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 2400px) {
   .background-species ul li:nth-child(4) a::before {
@@ -172,6 +181,7 @@ main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -190,6 +200,7 @@ main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 /* Reptiles */
