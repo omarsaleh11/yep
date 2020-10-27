@@ -32,8 +32,8 @@ body {
 /* fonts */
 :root {
   --font1: "courgette", sans-serif;
-  --font2: "Kalam", cursive;
-  --font3: "Itim", cursive;
+  --font2: "Kalam", sans-serif;
+  --font3: "Itim", sans-serif;
 }
 /* fonts */
 /* content */

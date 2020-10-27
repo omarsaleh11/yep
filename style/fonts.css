@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "courgette", cursive;
+  font-family: "courgette", serif;
   src: url(../fonts/courgette/Courgette-Regular.ttf);
 }
 @font-face {
-  font-family: "Kalam", cursive;
+  font-family: "Kalam", serif;
   src: url(../fonts/Kalam/Kalam-Regular.ttf);
 }
 @font-face {
-  font-family: "Itim", cursive;
+  font-family: "Itim", serif;
   src: url(../fonts/Itim/Itim-Regular.ttf);
 }
 @font-face {
-  font-family: "Lateef", cursive;
+  font-family: "Lateef", serif;
   src: url(../fonts/Lateef/Lateef-Regular.ttf);
 }
 @font-face {
-  font-family: "Amiri", cursive;
+  font-family: "Amiri", serif;
   src: url(../fonts/Amiri/Amiri-Regular.ttf);
 }
