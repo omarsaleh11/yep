@@ -14,7 +14,7 @@ function closeLanguage() {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (document.body.scrollTop > 380 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 100) {
     document.getElementById("footer").style.bottom = "0";
   } else {
     document.getElementById("footer").style.bottom = "-10rem";
@@ -35,13 +35,32 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     responsive:{
         0:{
+            items:1
+        },
+        300:{
+            items:1.3
+        },
+        320:{
             items:1.5
         },
+        500:{
+            items:2
+        },
         600:{
-            items:2.8
+            items:2.5
+        },
+        900:{
+            items:3
         },
         1000:{
+            items:3.5
+        },
+        1200:{
             items:4
+        }
+        ,
+        2200:{
+            items:5
         }
     }
 })

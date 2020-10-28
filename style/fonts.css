@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Courgette&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&display=swap");
+/* font5 */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @font-face {
-  font-family: "courgette", serif;
+  font-family: "Courgette", cursive;
   src: url(../fonts/courgette/Courgette-Regular.ttf);
 }
 @font-face {
-  font-family: "Kalam", serif;
+  font-family: "Kalam", cursive;
   src: url(../fonts/Kalam/Kalam-Regular.ttf);
 }
 @font-face {
-  font-family: "Itim", serif;
+  font-family: "Itim", cursive;
   src: url(../fonts/Itim/Itim-Regular.ttf);
 }
 @font-face {
@@ -17,4 +20,8 @@
 @font-face {
   font-family: "Amiri", serif;
   src: url(../fonts/Amiri/Amiri-Regular.ttf);
+}
+@font-face {
+  font-family: "Patrick Hand", cursive;
+  src: url(../fonts/Patrick_Hand/Patrick_Hand-Regular.ttf);
 }

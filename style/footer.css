@@ -6,7 +6,15 @@
 main {
   margin-bottom: 15rem;
 }
+/* fonts */
+:root {
+  --font1: "courgette", serif;
+  --font2: "Kalam", serif;
+  --font3: "Itim", serif;
+}
+/* fonts */
 footer {
+  font-family: var(--font3);
   direction: ltr;
   border-radius: 50% 60% 0 0;
   bottom: 0;
@@ -40,7 +48,7 @@ footer .logo img {
   color: #eeeeee;
 }
 a {
-  font-size: 1.05em;
+  font-size: 1.15em;
   text-transform: capitalize;
   text-decoration: none;
   cursor: pointer;

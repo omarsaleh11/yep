@@ -75,8 +75,8 @@ h3 {
   display: grid;
   width: 90%;
 }
-h4 {
-  font-size: 1.1em;
+p {
+  font-size: 1.3em;
   margin-left: 0.3em;
 }
 .main-content li {
@@ -85,8 +85,11 @@ h4 {
   list-style-type: decimal;
 }
 .main-content li a {
+  font-weight: 600;
   font-size: 1.16em;
   color: #dc143c;
+  word-spacing: 2px;
+  font-family: var(--font1);
 }
 ul:last-child {
   margin-bottom: 1em;
