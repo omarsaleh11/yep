@@ -36,11 +36,12 @@ body {
   --font1: "Lateef", serif;
   --font2: "Kalam", serif;
   --font3: "Amiri", serif;
+  --font4: "Markazi Text", serif;
 }
 /* fonts */
 /* content */
 .main-content {
-  font-family: var(--font1);
+  font-family: var(--font4);
   font-size: 1.7rem;
   color: #eeeeee;
   width: 100%;

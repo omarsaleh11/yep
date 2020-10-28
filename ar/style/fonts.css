@@ -1,20 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Courgette&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&family=Markazi+Text:wght@400;500;600;700&display=swap");
 @font-face {
-  font-family: "courgette", cursive;
+  font-family: "courgette", serif;
   src: url(../fonts/courgette/Courgette-Regular.ttf);
 }
 @font-face {
-  font-family: "Kalam", cursive;
+  font-family: "Kalam", serif;
   src: url(../fonts/Kalam/Kalam-Regular.ttf);
 }
 @font-face {
-  font-family: "Itim", cursive;
+  font-family: "Itim", serif;
   src: url(../fonts/Itim/Itim-Regular.ttf);
 }
 @font-face {
-  font-family: "Lateef", cursive;
+  font-family: "Lateef", serif;
   src: url(../fonts/Lateef/Lateef-Regular.ttf);
 }
 @font-face {
-  font-family: "Amiri", cursive;
+  font-family: "Amiri", serif;
   src: url(../fonts/Amiri/Amiri-Regular.ttf);
+}
+@font-face {
+  font-family: "Markazi Text", serif;
+  src: url(../fonts/Markazi_Text/Markazi_Text-Regular.ttf);
 }
