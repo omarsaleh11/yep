@@ -1,8 +1,10 @@
 function myMenu() {
     document.getElementById("menu").style.display = "block";
+    document.getElementById("hide").style.display = "none";
 }
 function closeMenu() {
     document.getElementById("menu").style.display = "none";
+    document.getElementById("hide").style.display = "block";
 }
 function myLanguage() {
     document.getElementById("language").style.height = "100%";
