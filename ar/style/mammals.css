@@ -21,11 +21,10 @@ html {
 }
 body {
   font-family: var(--font3);
-  font-weight: 400;
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
-    url(../images/latest-background.webp);
+    url(../images/mammals-background.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -34,23 +33,23 @@ body {
 }
 .fullmenu {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
-    url(../images/latest-background.webp);
+    url(../images/mammals-background.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 /* content */
 main {
-  margin: 8rem auto;
-  width: 85%;
-  margin-bottom: 16rem;
+  margin: 8rem 0;
+  width: 100%;
+  margin-bottom: 20rem;
   padding-top: 1em;
   font-size: 1.7rem;
   font-family: var(--font5);
-  align-items: center;
-  justify-content: center;
 }
 main h1 {
+  margin: 0 auto;
+  width: 80%;
   text-align: center;
   padding: 0.5rem 0;
   font-size: 2.1rem;
@@ -71,11 +70,12 @@ main h1 span {
   margin: 1rem;
   font-family: var(--font1);
 }
-.animals-card,
-.owl-carousel,
-.owl-theme {
-  margin: 0 auto;
-  margin-top: 0rem;
+.animals-card {
+  margin: 0rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 30rem));
+  grid-gap: 3rem;
+  height: auto;
 }
 .card {
   overflow: hidden;
@@ -85,34 +85,26 @@ main h1 span {
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.7s ease-in;
-  position: relative;
-  padding-top: 2rem;
   background-color: #1a1919d5;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
-  height: 41rem;
 }
 .card:hover {
   box-shadow: 3px 1px 12px 0px rgba(0, 0, 0);
   transform: scale(1.08);
 }
-.owl-carousel .owl-item {
-  float: right;
-}
 .card-img {
-  height: 14.5rem;
+  height: 15rem;
   width: 100%;
   padding: 0 0.5rem;
+  padding-top: 1.5rem;
 }
-
 .card-tittle {
+  padding-top: 1rem;
   padding-right: 1em;
-  padding-top: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 1.97rem;
   color: crimson;
   height: 5.2rem;
-  overflow: hidden;
   font-family: var(--font3);
+  overflow: hidden;
 }
 .card-tittle span {
   display: none;
@@ -128,7 +120,6 @@ main h1 span {
   font-size: 1.6rem;
   letter-spacing: 0.5px;
   font-weight: 200;
-  height: 8rem;
   font-family: var(--font5);
 }
 .card-btn {
@@ -139,8 +130,8 @@ main h1 span {
   color: #eeeeee;
   border-radius: 20%;
   border: 1em;
-  cursor: pointer;
   font-family: var(--font5);
+  cursor: pointer;
 }
 .card-btn:hover {
   background-color: #eeeeee;
@@ -192,62 +183,15 @@ main h1 span {
   -webkit-text-fill-color: transparent;
 }
 /* mantis */
-/* black widow */
-.black-widow:hover h2 {
-  letter-spacing: 1px;
-  background: rgb(42, 37, 33);
-  background: linear-gradient(
-    0deg,
-    rgba(42, 37, 33, 1) 10%,
-    rgba(156, 39, 14, 1) 50%,
-    rgba(42, 37, 33, 1) 80%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-/* black widow */
 /* insects */
 /* colors */
 /* media */
-@media screen and (max-width: 700px) {
-  html {
-    font-size: 9px;
-  }
-  .card-description {
-    height: 12.5rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 7.3px;
-  }
-}
-@media screen and (max-width: 1050px) {
-  .card {
-    height: 42rem;
-  }
-}
 @media screen and (min-width: 2000px) {
   html {
     font-size: 14px;
   }
   .card {
     height: 38rem;
-  }
-}
-@media screen and (max-width: 2400px) {
-  body,
-  .fullmenu {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url(../images/latest-background-l.webp);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -258,12 +202,21 @@ main h1 span {
         rgba(0, 0, 0, 1),
         rgba(0, 0, 0, 0.5)
       ),
-      url(../images/latest-background-m.webp);
+      url(../images/mammals-background-m.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
 }
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 9px;
+  }
+  .card-description {
+    height: 10.5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .animals-card {
     margin-top: 2rem;
@@ -282,15 +235,29 @@ main h1 span {
         rgba(0, 0, 0, 1),
         rgba(0, 0, 0, 0.5)
       ),
-      url(../images/latest-background-ss.webp);
+      url(../images/mammals-background-ss.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .hide {
     display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 7.3px;
+  }
+  .animals-card {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 31rem));
+    grid-gap: 5rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
   }
 }
 /* media */

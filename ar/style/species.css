@@ -1,0 +1,256 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--font3);
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0), rgb(97, 96, 96));
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.fullmenu {
+  background: linear-gradient(to bottom, black, rgb(97, 96, 96));
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer-content {
+  display: grid;
+}
+.footer-content h4 {
+  cursor: pointer;
+  font-family: var(--font5);
+}
+.footer-content nav ul {
+  margin-top: 20rem;
+  font-size: 1.4rem;
+}
+.footer-content li a {
+  font-size: 3rem;
+  color: #4fcc13;
+}
+/* fonts */
+:root {
+  --font1: "Lateef", serif;
+  --font2: "Kalam", serif;
+  --font3: "Amiri", serif;
+  --font4: "Markazi Text", serif;
+  --font5: "Tajawal", sans-serif;
+}
+/* fonts */
+/* content */
+main {
+  width: 100%;
+}
+.background-species {
+  display: block;
+  margin: 10rem auto;
+  justify-content: center;
+  align-items: center;
+}
+.background-species ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+.background-species ul li {
+  margin: 3rem auto;
+  font-size: 2rem;
+  width: 20rem;
+  height: 7vh;
+  font-family: var(--font3);
+}
+.background-species ul li a {
+  display: block;
+  margin: 0 auto;
+}
+.background-species ul li a:before {
+  content: attr(data-text);
+  position: fixed;
+  overflow: hidden;
+  text-align: center;
+  font-size: 3.2rem;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scale(0);
+  z-index: -1;
+}
+.background-species ul li a:hover::before {
+  transform: scale(1);
+  transition: transform 1s;
+}
+/* mammals */
+.background-species ul li:nth-child(1) a::before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../images/mammals-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1300px) {
+  .background-species ul li:nth-child(1) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/mammals-background-m.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 600px) {
+  .background-species ul li:nth-child(1) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/mammals-background-ss.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+/* mammals */
+/* insects */
+.background-species ul li:nth-child(2) a::before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../images/insects-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1300px) {
+  .background-species ul li:nth-child(2) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/insects-background-m.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 600px) {
+  .background-species ul li:nth-child(2) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/insects-background-ss.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+/* insects */
+/* Birds */
+.background-species ul li:nth-child(3) a::before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../images/Birds-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/* Birds */
+/* Reptiles */
+.background-species ul li:nth-child(4) a::before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../images/Reptiles-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 2400px) {
+  .background-species ul li:nth-child(4) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Reptiles-background-l.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .background-species ul li:nth-child(4) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Reptiles-background-m.webp);
+    background-position: 70% 10%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 600px) {
+  .background-species ul li:nth-child(4) a::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Reptiles-background-ss.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+/* Reptiles */
+/* content */
+/* media */
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 6.5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hide {
+    display: none;
+  }
+}
+/* media */

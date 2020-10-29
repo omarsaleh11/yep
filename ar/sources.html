@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./style/animation.css">
     <link rel="stylesheet" href="./style/scrollbar.css">
     <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
-    <title>OS موسوعة-المصادر</title>
+    <title>OS Encyclopedia-المصادر</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <nav class="midnav">
             <ul>
                 <li><a href="./sources.html" class="sources hide">المصادر</a></li>
-                <li><a href="#" class="contact hide">تواصل معنا</a></li>
+                <li><a href="./contant.html" class="contact hide">تواصل معنا</a></li>
             </ul>
         </nav>
         <div class="mymenu">
@@ -41,25 +41,25 @@
                     <li class="bounce-in-left"><a href="./latest.html">أخر المقالات</a></li>
                     <li class="drop-species bounce-in-right"><a class="drop">الأنواع</a>
                         <div class="dropdown-content" style="margin-bottom: 0px;">
-                            <a href="#">ثدييات</a>
-                            <a href="#">طيور</a>
-                            <a href="#">حشرات</a>
-                            <a href="#">للمزيد</a>
+                            <a href="./mammals.html">ثدييات</a>
+                            <a href="./birds">طيور</a>
+                            <a href="./insects.html">حشرات</a>
+                            <a href="./species.html">للمزيد</a>
                         </div>
                     </li>
                     <li class="drop-Animals bounce-in-left"><a class="drop">الحيوانات</a>
                         <div class="dropdown-content" style="margin-bottom: 0px;">
-                            <a href="#">غرير العسل</a>
-                            <a href="#">صقور الجديان</a>
-                            <a href="#">بنغول</a>
-                            <a href="#">وحيد القرن الأبيض</a>
-                            <a href="#">للمزيد</a>
+                            <a href="./honoy-badger.html">غرير العسل</a>
+                            <a href="./secretary-bird.html">صقور الجديان</a>
+                            <a href="./pangolin.html">بنغول</a>
+                            <a href="./white-rhinoceros.html">وحيد القرن الأبيض</a>
+                            <a href="./animals.html">للمزيد</a>
                         </div>
                     </li>
                     <li class="bounce-in-right"><a href="./sources.html">المصادر</a></li>
-                    <li class="bounce-in-left"><a href="#">تواصل معنا</a></li>
-                    <li class="bounce-in-right"><a href="#">ثيمات</a></li>
-                    <li class="bounce-in-left"><a href="#">بحث</a></li>
+                    <li class="bounce-in-left"><a href="./contact.html">تواصل معنا</a></li>
+                    <li class="bounce-in-right"><a href="./themes.html">ثيمات</a></li>
+                    <li class="bounce-in-left"><a href="./search.html">بحث</a></li>
                 </ul>
             </nav>
             <div class="mylanguage">
@@ -132,8 +132,21 @@
                             <h4>موقع <a target="_blank" href="https://animals.sandiegozoo.org/">Animals.sandiegozoo
                                     Orgnization</a> .
                             </h4>
+                        </li>
+                        <li>
+                            <h4>موقع <a target="_blank" href="https://www.rentokil.co.id/">rentokil.co.id</a> .
+                            </h4>
+                        </li>
                         <li>
                             <h4>موقع <a target="_blank" href="https://animaldiversity.org/">Animaldiversity</a> .
+                        </li>
+                        <li>
+                            <h4>موقع <a target="_blank" href="http://entnemdept.ufl.edu/">entnemdept</a> .
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>موقع <a target="_blank" href="http://www.libraries-of-life.org/">libraries of life
+                                    organization</a> .
                             </h4>
                         </li>
                         <li>
@@ -182,6 +195,17 @@
     <!-- java -->
     <script src=" ./js/main.js"></script>
     <script src="./js/jquery3.5.1.main.js"></script>
+    <script>var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (document.body.scrollTop > 770 || document.documentElement.scrollTop > 770) {
+                document.getElementById("footer").style.bottom = "0";
+            } else {
+                document.getElementById("footer").style.bottom = "-10rem";
+                document.getElementById("footer").style.background = "#2222228d";
+            }
+            prevScrollpos = currentScrollPos;
+        }</script>
     <!-- java -->
 </body>
 

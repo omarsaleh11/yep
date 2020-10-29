@@ -29,10 +29,6 @@ footer {
   transition: bottom 0.5s;
   box-shadow: 3px 1px 12px 0px rgba(0, 0, 0);
 }
-footer:hover {
-  height: 10rem;
-  padding-top: 2rem;
-}
 footer .logo img {
   padding-top: 1em;
   max-width: 90px;
@@ -91,9 +87,5 @@ a {
   }
   main {
     margin-bottom: 25rem;
-  }
-  footer:hover {
-    height: 30rem;
-    padding-top: 0;
   }
 }

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Courgette&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&family=Markazi+Text:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&display=swap");
+
+/*  */
 @font-face {
   font-family: "courgette", serif;
   src: url(../fonts/courgette/Courgette-Regular.ttf);
@@ -21,5 +25,9 @@
 }
 @font-face {
   font-family: "Markazi Text", serif;
-  src: url(../fonts/Markazi_Text/Markazi_Text-Regular.ttf);
+  src: url(../fonts/Markazi_Text/MarkaziText-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Tajawal", sans-serif;
+  src: url(../fonts/Tajawal/Tajawal-Regular.ttf);
 }
