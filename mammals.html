@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="./style/owl.carousel.css">
-    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/footer.css">
-    <link rel="stylesheet" href="./style/latest.css">
+    <link rel="stylesheet" href="./style/mammals.css">
     <link rel="stylesheet" href="./style/fonts.css">
     <link rel="stylesheet" href="./style/animation.css">
     <link rel="stylesheet" href="./style/scrollbar.css">
     <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
-    <title>OS Encyclopedia-latest</title>
+    <title>OS Encyclopedia-Species-Mammals</title>
 </head>
 
 <body>
@@ -69,8 +67,8 @@
                     <a href="javascript:void(0)" class="closebtn" onclick="closeLanguage()"><i
                             class="fas fa-times"></i></a>
                     <ul>
-                        <li><a href="./latest.html" class="active">English</a></li>
-                        <li><a href="./ar/latest.html" dir="rtl">عربى</a></li>
+                        <li><a href="./mammals.html" class="active">English</a></li>
+                        <li><a href="./ar/mammals.html" dir="rtl">عربى</a></li>
                     </ul>
                 </nav>
             </div>
@@ -81,13 +79,12 @@
         <!-- content -->
         <main>
             <div class="full-content">
-                <h1>Welcome here the <span>Latest articles</span> in the Encyclopedia</h1>
+                <h1>Welcome, here the <span>Mammal articles</span> in the Encyclopedia</h1>
             </div>
             <div class="latest-cards">
                 <div class="mammals-cards">
-                    <h1>Latest</h1>
-                    <div class="animals-card owl-carousel owl-theme">
-                        <div class="card honey-badger item">
+                    <div class="animals-card">
+                        <div class="card honey-badger">
                             <div class="card-body">
                                 <img src="./icons/honey-badger-ic.webp" alt="Honey Badger" class="card-img">
                                 <h2 class="card-tittle">
@@ -103,7 +100,7 @@
                                     Read more
                                 </button></a>
                         </div>
-                        <div class="card cheetah item">
+                        <div class="card cheetah">
                             <div class="card-body">
                                 <img src="./icons/ceetah-ic.webp" alt="Cheetah" class="card-img">
                                 <h2 class="card-tittle">
@@ -118,7 +115,7 @@
                                     Read more
                                 </button></a>
                         </div>
-                        <div class="card mantis item">
+                        <div class="card mantis">
                             <div class="card-body">
                                 <img src="./icons/mantis-ic.webp" alt="Praying Mantis" class="card-img">
                                 <h2 class="card-tittle">
@@ -133,7 +130,7 @@
                                     Read more
                                 </button></a>
                         </div>
-                        <div class="card secretary-bird item">
+                        <div class="card secretary-bird">
                             <div class="card-body">
                                 <img src="./icons/secretary-bird-ic.webp" alt="secretary-bird" class="card-img">
                                 <h2 class="card-tittle">
@@ -143,22 +140,6 @@
                                     This 1.3-meter queen has feet that reach 20 kg (5 times their size) and a speed of
                                     50
                                     ms per stroke can kill anything underneath it.
-                                </p>
-                            </div><a href="./soon.html">
-                                <button class="card-btn">
-                                    Read more
-                                </button></a>
-                        </div>
-                        <div class="card black-widow item">
-                            <div class="card-body">
-                                <img src="./icons/black-widow-ic.webp" alt="Black Widow" class="card-img">
-                                <h2 class="card-tittle">
-                                    Black Widow
-                                </h2>
-                                <p class="card-description">
-                                    This spider distinguishes the female from the male. They are twice the size of a
-                                    male and have a mark like an hourglass
-                                    on their back.
                                 </p>
                             </div><a href="./soon.html">
                                 <button class="card-btn">
@@ -176,22 +157,32 @@
             <div class="by-os">copyright for<a target="_blank" href="https://www.facebook.com/omar.saleh.3344913">
                     OS</a> &copy;2020</div>
             <div class="footer-content">background image by <a
-                    href="https://www.pexels.com/@eberhardgross?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
-                    target="_blank">eberhard grossgasteiger</a> from <a
-                    href="https://www.pexels.com/photo/daylight-forest-glossy-lake-443446/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
-                    target="_blank">Pexels</a> . </div>
+                    href="https://www.pexels.com/@hendrikcornelissen?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                    target="_blank">Hendrik Cornelissen</a> from <a
+                    href="https://www.pexels.com/photo/five-zebra-grazing-on-grass-field-2862070/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+                    target="_blank">Pexels</a>. </div>
         </footer>
         <!-- footer -->
     </div>
     <!-- java -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/owl.carousel.js"></script>
-    <script src="./js/main.js"></script>
     <script src="./js/jquery3.5.1.main.js"></script>
-    <script>var prevScrollpos = window.pageYOffset;
+    <script>
+        function myMenu() {
+            document.getElementById("menu").style.display = "block";
+        }
+        function closeMenu() {
+            document.getElementById("menu").style.display = "none";
+        }
+        function myLanguage() {
+            document.getElementById("language").style.height = "100%";
+        }
+        function closeLanguage() {
+            document.getElementById("language").style.height = "0%";
+        }
+        var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
-            if (document.body.scrollTop > 3 || document.documentElement.scrollTop > 3) {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
                 document.getElementById("footer").style.bottom = "0";
             } else {
                 document.getElementById("footer").style.bottom = "-10rem";

@@ -74,6 +74,7 @@ h3 {
 .main-content ul {
   display: grid;
   width: 90%;
+  margin-left: 1.4rem;
 }
 p {
   font-size: 1.3em;

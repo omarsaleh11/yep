@@ -14,7 +14,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(to bottom, rgba(0, 0, 0), rgb(97, 96, 96));
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -23,7 +23,7 @@ body {
   overflow-y: auto;
 }
 .fullmenu {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(to bottom, black, rgb(97, 96, 96));
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -97,7 +97,7 @@ main {
 }
 /* mammals */
 .background-species ul li:nth-child(1) a::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(../images/mammals-background.webp);
   background-position: center;
   background-size: cover;
@@ -106,7 +106,11 @@ main {
 }
 @media screen and (max-width: 1300px) {
   .background-species ul li:nth-child(1) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/mammals-background-m.webp);
     background-position: center;
     background-size: cover;
@@ -116,7 +120,11 @@ main {
 }
 @media screen and (max-width: 600px) {
   .background-species ul li:nth-child(1) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/mammals-background-ss.webp);
     background-position: center;
     background-size: cover;
@@ -127,7 +135,7 @@ main {
 /* mammals */
 /* insects */
 .background-species ul li:nth-child(2) a::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(../images/insects-background.webp);
   background-position: center;
   background-size: cover;
@@ -136,7 +144,11 @@ main {
 }
 @media screen and (max-width: 1300px) {
   .background-species ul li:nth-child(2) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/insects-background-m.webp);
     background-position: center;
     background-size: cover;
@@ -146,7 +158,11 @@ main {
 }
 @media screen and (max-width: 600px) {
   .background-species ul li:nth-child(2) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/insects-background-ss.webp);
     background-position: center;
     background-size: cover;
@@ -157,7 +173,7 @@ main {
 /* insects */
 /* Birds */
 .background-species ul li:nth-child(3) a::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(../images/Birds-background.webp);
   background-position: center;
   background-size: cover;
@@ -167,7 +183,7 @@ main {
 /* Birds */
 /* Reptiles */
 .background-species ul li:nth-child(4) a::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(../images/Reptiles-background.webp);
   background-position: center;
   background-size: cover;
@@ -176,7 +192,11 @@ main {
 }
 @media screen and (max-width: 2400px) {
   .background-species ul li:nth-child(4) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/Reptiles-background-l.webp);
     background-position: center;
     background-size: cover;
@@ -186,7 +206,11 @@ main {
 }
 @media screen and (max-width: 1300px) {
   .background-species ul li:nth-child(4) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/Reptiles-background-m.webp);
     background-position: 70% 10%;
     background-size: cover;
@@ -195,7 +219,11 @@ main {
 }
 @media screen and (max-width: 600px) {
   .background-species ul li:nth-child(4) a::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
       url(../images/Reptiles-background-ss.webp);
     background-position: center;
     background-size: cover;
@@ -214,16 +242,6 @@ main {
 @media screen and (max-width: 400px) {
   html {
     font-size: 6.5px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  body,
-  .fullmenu {
-    background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0.5)
-    );
   }
 }
 @media screen and (max-width: 500px) {

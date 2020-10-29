@@ -46,20 +46,26 @@ $('.owl-carousel').owlCarousel({
         500:{
             items:2
         },
-        600:{
+        710:{
+            items:2.2
+        },
+        800:{
             items:2.5
         },
         900:{
             items:3
         },
-        1000:{
+        1050:{
             items:3.5
         },
         1200:{
             items:4
         }
         ,
-        2200:{
+        1500:{
+            items:4.5
+        },
+        1700:{
             items:5
         }
     }
