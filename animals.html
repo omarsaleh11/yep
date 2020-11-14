@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/all.min.css">
+	<link rel="stylesheet" href="./style/header.css">
+	<link rel="stylesheet" href="./style/footer.css">
+	<link rel="stylesheet" href="./style/animals.css">
+	<link rel="stylesheet" href="./style/fonts.css">
+	<link rel="stylesheet" href="./style/animation.css">
+	<link rel="stylesheet" href="./style/scrollbar.css">
+	<link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+	<title>Animals</title>
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<nav class="topnav">
+			<ul>
+				<li><span onclick="myLanguage()"><i class="fas wobble-hor-bottom fa-language language"></i></span></li>
+				<li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a>
+				</li>
+				<li><span onclick="myMenu()"><i class="fas wobble-hor-bottom fa-hamburger menu"></span></i></li>
+			</ul>
+		</nav>
+		<nav class="midnav">
+			<ul>
+				<li><a href="./sources.html" class="sources hide">Sources</a></li>
+				<li><a href="#" class="contact hide">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="mymenu">
+			<nav class="fullmenu" id="menu">
+				<a href="javascript:void(0)" class="closebtn btn2" onclick="closeMenu()"><i class="fas fa-times"></i></a>
+				<ul>
+					<li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a></li>
+					<li class="bounce-in-right"><a href="./latest.html">Latest</a></li>
+					<li class="drop-species bounce-in-left"><a class="drop">Species</a>
+						<div class="dropdown-content" style="margin-bottom: 0px;">
+							<a href="./mammals.html">Mammals</a>
+							<a href="./birds.html">Birds</a>
+							<a href="./insects.html">Insects</a>
+							<a href="./species.html">For More</a>
+						</div>
+					</li>
+					<li class="drop-Animals bounce-in-right"><a class="drop">Animals</a>
+						<div class="dropdown-content" style="margin-bottom: 0px;">
+							<a href="./mammals/honey-badger.html">Honey badger</a>
+							<a href="#">Secretary birds</a>
+							<a href="#">pangolin</a>
+							<a href="#">White Rhinoceros</a>
+							<a href="/animals.html">For More</a>
+						</div>
+					</li>
+					<li class="bounce-in-left"><a href="./sources.html">Sources</a></li>
+					<li class="bounce-in-right"><a href="#">Contact</a></li>
+					<li class="bounce-in-left"><a href="#">Themes</a></li>
+					<li class="bounce-in-right"><a href="#">Search</a></li>
+				</ul>
+			</nav>
+			<div class="mylanguage">
+				<nav class="fullmenu" id="language">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeLanguage()"><i class="fas fa-times"></i></a>
+					<ul>
+						<li><a href="./index.html" class="active">English</a></li>
+						<li><a href="./ar/index.html" dir="rtl">عربى</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- header -->
+	<div class="main-and-footer">
+		<!-- content -->
+		<main>
+			<div class="full-content">
+				<h2>C</h2>
+				<ul>
+					<li><a href="/mammals/cheetah.html">cheetah</a><img src="/mammals/images/cheetah/cheetah-s-ic.webp"></li>
+				</ul>
+				<h2>h</h2>
+				<ul>
+					<li><a href="/mammals/honey-badger.html">honey badger</a><img
+							src="/mammals/images/honey-badger/honey-badger-ic.webp" class="honey-badger"></li>
+				</ul>
+			</div>
+		</main>
+		<!-- content -->
+		<!-- footer -->
+		<footer id="footer">
+			<div class="logo footer"><a href="./index.html"><img src="./logo.svg" alt="logo"></a></div>
+			<div class="by-os">copyright for <a target="_blank" href="https://www.facebook.com/omar.saleh.3344913">
+					OS</a> &copy;2020</div>
+			<div class="footer-content">background image by <a
+					href="https://www.pexels.com/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+					target="_blank">Pixabay</a> from <a
+					href="https://www.pexels.com/photo/man-on-white-horse-next-to-dog-on-grassy-field-162520/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+					target="_blank">Pexels</a> . </div>
+		</footer>
+		<!-- footer -->
+	</div>
+	<!-- java -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+		integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+		crossorigin="anonymous"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/jquery3.5.1.main.js"></script>
+	<!-- java -->
+</body>
+
+</html>
