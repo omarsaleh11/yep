@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/all.min.css">
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/footer.css">
+  <link rel="stylesheet" href="./style/Insects.css">
+  <link rel="stylesheet" href="./style/fonts.css">
+  <link rel="stylesheet" href="./style/animation.css">
+  <link rel="stylesheet" href="./style/scrollbar.css">
+  <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+  <title>OS Encyclopedia-الأنواع- الحشرات </title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav class="topnav">
+      <ul>
+        <li><span onclick="myLanguage()"><i class="fas wobble-hor-bottom fa-language language"></i></span></li>
+        <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a>
+        </li>
+        <li><span onclick="myMenu()"><i class="fas wobble-hor-bottom fa-hamburger menu"></span></i></li>
+      </ul>
+    </nav>
+    <nav class="midnav">
+      <ul>
+        <li><a href="./sources.html" class="sources hide">المصادر</a></li>
+        <li><a href="./contant.html" class="contact hide">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="mymenu">
+      <nav class="fullmenu" id="menu">
+        <a href="javascript:void(0)" class="closebtn btn2" onclick="closeMenu()"><i class="fas fa-times"></i></a>
+        <ul>
+          <li><a href="./index.html"><img src="./logo.svg" alt="logo" class="brand"></a></li>
+          <li class="bounce-in-left"><a href="./latest.html">أخر المقالات</a></li>
+          <li class="drop-species bounce-in-right"><a class="drop">الأنواع</a>
+            <div class="dropdown-content" style="margin-bottom: 0px;">
+              <a href="./mammals.html">ثدييات</a>
+              <a href="./birds">طيور</a>
+              <a href="./insects.html">حشرات</a>
+              <a href="./species.html">للمزيد</a>
+            </div>
+          </li>
+          <li class="drop-Animals bounce-in-left"><a class="drop">الحيوانات</a>
+            <div class="dropdown-content" style="margin-bottom: 0px;">
+              <a href="./mammals/honey-badger.html">غرير العسل</a>
+              <a href="./secretary-bird.html">صقور الجديان</a>
+              <a href="./pangolin.html">بنغول</a>
+              <a href="./white-rhinoceros.html">وحيد القرن الأبيض</a>
+              <a href="./animals.html">للمزيد</a>
+            </div>
+          </li>
+          <li class="bounce-in-right"><a href="./sources.html">المصادر</a></li>
+          <li class="bounce-in-left"><a href="./contact.html">تواصل معنا</a></li>
+          <li class="bounce-in-right"><a href="./themes.html">ثيمات</a></li>
+          <li class="bounce-in-left"><a href="./search.html">بحث</a></li>
+        </ul>
+      </nav>
+      <div class="mylanguage">
+        <nav class="fullmenu" id="language">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeLanguage()"><i class="fas fa-times"></i></a>
+          <ul>
+            <li><a href="/insects.html" class="active">English</a></li>
+            <li><a href="/ar/insects.html" dir="rtl">عربى</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+  <div class="main-and-footer" dir="rtl">
+    <!-- content -->
+    <main>
+      <div class="full-content">
+        <h1>مرحباََ, هنا <span>مقالات الحشرات</span> فى الموسوعة</h1>
+      </div>
+      <div class="latest-cards">
+        <div class="mammals-cards">
+          <div class="animals-card">
+            <div class="card mantis">
+              <div class="card-body">
+                <img src="./icons/mantis-ic.webp" alt="Praying Mantis" class="card-img">
+                <h2 class="card-tittle">
+                  فرس النبى <span>(السرعوف)</span>
+                </h2>
+                <p class="card-description">
+                  تمتلك هذه الحشرة السرعة والتخفي بشكل غير مرئي. يمكن أن تقتل جميع الحشرات تقريبًا وأحيانًا الطيور
+                  الطنانة.
+                </p>
+              </div><a href="/insects/praying-mantis.html">
+                <button class="card-btn">
+                  أقرأ المزيد من هنا
+                </button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- content -->
+    <!-- footer -->
+    <footer id="footer">
+      <div class="logo footer"><a href="./index.html"><img src="./logo.svg" alt="logo"></a></div>
+      <div class="by-os">copyright for<a target="_blank" href="https://www.facebook.com/omar.saleh.3344913">
+          OS</a> &copy;2020</div>
+      <div class="footer-content">background image by <a
+          href="https://www.pexels.com/@ganajp?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+          target="_blank">Petr Ganaj</a> from <a
+          href="https://www.pexels.com/photo/little-flying-adder-sitting-on-wooden-stick-4112220/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
+          target="_blank">Pexels</a>. </div>
+    </footer>
+    <!-- footer -->
+  </div>
+  <!-- java -->
+  <script src="./js/jquery3.5.1.main.js"></script>
+  <script>
+    function myMenu() {
+      document.getElementById("menu").style.display = "block";
+    }
+    function closeMenu() {
+      document.getElementById("menu").style.display = "none";
+    }
+    function myLanguage() {
+      document.getElementById("language").style.height = "100%";
+    }
+    function closeLanguage() {
+      document.getElementById("language").style.height = "0%";
+    }
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById("footer").style.bottom = "0";
+      } else {
+        document.getElementById("footer").style.bottom = "-10rem";
+        document.getElementById("footer").style.background = "#2222228d";
+      }
+      prevScrollpos = currentScrollPos;
+    }</script>
+  <!-- java -->
+</body>
+
+</html>
