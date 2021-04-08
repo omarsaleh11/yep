@@ -1,0 +1,47 @@
+/* lista */
+.top {
+	cursor: pointer;
+	/* text-indent: -9999px; */
+	display: none;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+}
+.top a,
+.list a {
+	color: #eeeeee;
+}
+.list a:hover,
+.top a:hover {
+	color: #ffa36c;
+}
+.top i,
+.list {
+	position: fixed;
+	bottom: 7%;
+	right: 3%;
+	font-size: 3.5rem;
+}
+.lista {
+	display: none;
+	font-size: 1rem;
+	transition: left 1s ease-in;
+	margin-right: 0.5rem;
+	padding: 2rem;
+	background-color: #424449;
+}
+.lista ul {
+	margin: 0;
+}
+.list {
+	display: flex;
+	bottom: 50%;
+	right: 1%;
+}
+#scroll:hover,
+.list a:hover {
+	opacity: 0.8;
+	filter: "alpha(opacity=100)";
+	-ms-filter: "alpha(opacity=100)";
+}
+/* lista */
